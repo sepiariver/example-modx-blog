@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+[[$head]]
+  <body>
+    <div class="container">
+        [[$header]]
+
+        [[$jumbotron-[[*class_key]]]]
+    </div>
+    
+    <main role="main" class="container">
+        <div class="row">
+            <div class="col-md-8 blog-main">
+              
+                [[[[*class_key:is=`CollectionContainer`:then=`!$blog_listing`:else=`$blog_article`]]]]
+    
+            </div><!-- /.blog-main -->
+        
+            [[$aside]]
+    
+        </div><!-- /.row -->
+    
+    </main><!-- /.container -->
+
+    <footer class="blog-footer">
+        <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p><a href="#">Back to top</a></p>
+    </footer>
+</body>
+</html>
