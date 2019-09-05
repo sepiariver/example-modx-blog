@@ -1,0 +1,36 @@
+{
+    "name": "Example MODX Blog"
+    ,"lowCaseName": "examplemodxblog"
+    ,"description": "Example MODX Blog. Refer to: https://sepiariver.com/modx/creating-a-blog-in-modx/"
+    ,"author": "YJ Tso <info@sepiariver.com>"
+    ,"version": "0.0.1-dev1"
+    ,"package":{
+        "elements": {
+            "snippets": [{
+                "name": "firstp"
+                ,"file": "firstp.php"
+            }]
+            ,"chunks": [{
+                "name": "head"
+                ,"file": "head.html"
+            }]
+            ,"templates": [{
+                "name": "Blog Template"
+                ,"file": "blog_template.html"
+            }]
+        }
+    }
+    ,"dependencies": [
+        {
+            "name": "collections",
+            "version": ">=3.7.0"
+        },{
+            "name": "getresources",
+            "version": ">=1.6.1"
+        },
+        {
+            "name": "tagger",
+            "version": ">=1.11.0"
+        }
+    ]
+}
