@@ -1,0 +1,16 @@
+<h3 class="pb-4 mb-4 font-italic border-bottom">
+    From the Firehose
+</h3>
+
+[[!getPage@blog? &cache=`1` &element=`getResources`
+    &parents=`[[++site_start]]`
+    &depth=`0`
+    &limit=`8`
+    &includeContent=`1`
+    &tpl=`blog_listing-item.tpl`
+]]
+
+<nav class="blog-pagination">
+    <a class="btn btn-outline-primary" href="#">Older</a>
+    <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+</nav>

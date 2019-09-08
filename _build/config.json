@@ -1,30 +1,78 @@
 {
-    "name": "Example MODX Blog"
-    ,"lowCaseName": "examplemodxblog"
-    ,"description": "Example MODX Blog. Refer to: https://sepiariver.com/modx/creating-a-blog-in-modx/"
-    ,"author": "YJ Tso <info@sepiariver.com>"
-    ,"version": "0.0.1-dev1"
-    ,"package":{
+    "name": "Example MODX Blog",
+    "lowCaseName": "examplemodxblog",
+    "description": "Example MODX Blog. Refer to: https://sepiariver.com/modx/creating-a-blog-in-modx/",
+    "author": "YJ Tso <info@sepiariver.com>",
+    "version": "0.0.1-dev1",
+    "package": {
         "elements": {
-            "snippets": [{
-                "name": "firstp"
-                ,"file": "firstp.php"
-            }]
-            ,"chunks": [{
-                "name": "head"
-                ,"file": "head.html"
-            }]
-            ,"templates": [{
-                "name": "Blog Template"
-                ,"file": "blog_template.html"
-            }]
+            "snippets": [
+                {
+                    "name": "firstp",
+                    "file": "firstp.php"
+                }
+            ],
+            "chunks": [
+                {
+                    "name": "aside",
+                    "file": "aside.html"
+                },{
+                    "name": "blog_article",
+                    "file": "blog_article.html"
+                },{
+                    "name": "blog_listing-item",
+                    "file": "blog_listing-item.html"
+                },{
+                    "name": "blog_listing",
+                    "file": "blog_listing.html"
+                },{
+                    "name": "head",
+                    "file": "head.html"
+                },
+                {
+                    "name": "header",
+                    "file": "header.html"
+                },
+                {
+                    "name": "jumbotron-CollectionContainer",
+                    "file": "jumbotron-CollectionContainer.html"
+                },
+                {
+                    "name": "jumbotron-modDocument",
+                    "file": "jumbotron-modDocument.html"
+                },
+                {
+                    "name": "post_meta",
+                    "file": "post_meta.html"
+                },
+                {
+                    "name": "scripts",
+                    "file": "scripts.html"
+                },
+                {
+                    "name": "styles",
+                    "file": "styles.html"
+                },
+                {
+                    "name": "tag_link",
+                    "file": "tag_link.html"
+                }
+            ],
+            "templates": [
+                {
+                    "name": "Blog Template",
+                    "file": "blog_template.html",
+                    "icon": "icon-coffee"
+                }
+            ]
         }
-    }
-    ,"dependencies": [
+    },
+    "dependencies": [
         {
             "name": "collections",
             "version": ">=3.7.0"
-        },{
+        },
+        {
             "name": "getresources",
             "version": ">=1.6.1"
         },
