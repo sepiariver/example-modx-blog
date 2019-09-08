@@ -54,6 +54,10 @@
                     "file": "styles.html"
                 },
                 {
+                    "name": "tag_li",
+                    "file": "tag_li.html"
+                },
+                {
                     "name": "tag_link",
                     "file": "tag_link.html"
                 }
